@@ -10,7 +10,7 @@ const Header = () => {
       {" | "}
       <Link to="/coures" activeClassName="active">Coures</Link>
     </nav>
-  )
+  );
 };
 
 export default Header;
