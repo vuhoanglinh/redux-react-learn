@@ -18,7 +18,7 @@ Babel has support for the latest version of JavaScript through syntax transforme
 This course will focus [babel-polyfill](https://babeljs.io/docs/usage/polyfill).
 
 ## Webpack
-![Webpack](./images/webpack.svg)
+![Webpack](./images/webpack.png)
 Webpack is a **build tool that puts all of your assets, including Javascript, images, fonts, and CSS, in a dependency graph.** Webpack lets you use require() in your source code to point to local files, like images, and decide how they're processed in your final Javascript bundle, like replacing the path with a URL pointing to a CDN.
 
 **Should I Use Webpack?**
