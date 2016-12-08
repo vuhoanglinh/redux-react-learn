@@ -16,17 +16,14 @@ class ManageCoursePage extends React.Component {
 
   render() {
     return (
-      <div>
-        <CourseForm
-          allAuthors={this.props.authors}
-          course={this.state.course}
-          erros={this.state.errors}
-        />
-      </div>
+      <CourseForm
+        allAuthors={this.props.authors}
+        course={this.state.course}
+        errors={this.state.errors}
+      />
     );
   }
 }
-
 ManageCoursePage.propTypes = {
   course: PropTypes.object.isRequired,
   authors: PropTypes.array.isRequired

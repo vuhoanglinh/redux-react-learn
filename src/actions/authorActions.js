@@ -1,8 +1,8 @@
-import * as types from './actionTypes';
 import authorApi from '../api/mockAuthorApi';
+import * as types from './actionTypes';
 
 export function loadAuthorsSuccess(authors) {
-  return { type: types.LOAD_AUTHORS_SUCESS, authors};
+  return { type: types.LOAD_AUTHORS_SUCCESS, authors};
 }
 
 export function loadAuthors() {
